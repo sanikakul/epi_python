@@ -35,7 +35,7 @@ def compute_word_parity_three(n):
     PRECOMPILED_PARITY = {}
     i = 0
     while i < pow(2, 16):
-        PRECOMPILED_PARITY[i] = compute_word_parity_two(i)
+        PRECOMPILED_PARITY[i] = compute_word_parity_four(i)
         i += 1
     MASK_SIZE = 16
     BIT_MASK = 0xFFFF
